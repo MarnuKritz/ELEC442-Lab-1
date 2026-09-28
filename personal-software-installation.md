@@ -1,12 +1,13 @@
 # ELEC 442 QArm Lab Software Installation for Student Computers
 
-**Last updated:** September 24, 2026  
+**Last updated:** September 25, 2026  
 
-> This guide is for a windows **personal computer**. Lab computers have already been configured.
-
-> This guide is an adapation of Quanser's own [PC setup guide](https://github.com/quanser/Quanser_Academic_Resources/blob/dev-windows/docs/pc_setup.md). This version is intended to be more streamlined for ELEC 442. It also includes the cloning of `lab-machine-env`, a custom respository that supporst this course's labs. If you intend to use MATLAB or connect to the QArm hardware, follow their guide first.
+> This guide is for a **personal computer**. The first part takes you through core components which all students will need. The second part will setup Quanser and virtual arm components which only windows computers will be able to use. Lab computers have already been configured.
 
 > This guide assumes you are familiar with Python code, but does not assume that you are familiar with installing Python, the VS Code IDE, or using Git.
+
+# For all students
+These are core software components that you will need for this class. Lab 0 will give you a chance to install, then test these to ensure you are prepared for the upcoming labs.
 
 ## 1. Install Git
 
@@ -52,7 +53,24 @@ If you already have Python, Quanser supports versions 3.11 to 3.14. Otherwise we
 
 2. Install. When prompted, select the *Add Python to PATH* option in the first menu of the installer.
 
-## 4. Install Quanser SDK and Quanser Interactive Labs
+### Set up Python Libraries
+
+The only key library required to be installed for all users is numpy:
++ Open a terminal instance anywhere
++ run: `pip install numpy`
+
+## 4. Install Visual Studio Code
+
+You can use any local IDE you like, but we recommend VS Code. Cloud-based code editors will not work.
+
+1. Download [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user) and install.
+
+# Windows Computers Only
+> This guide is an adapation of Quanser's own [PC setup guide](https://github.com/quanser/Quanser_Academic_Resources/blob/dev-windows/docs/pc_setup.md). This version is intended to be more streamlined for ELEC 442. It also includes the cloning of `lab-machine-env`, a custom respository that supporst this course's labs. If you intend to use MATLAB or connect to the QArm hardware, follow their guide first.
+
+The following sections take you through installing tools used to run the virtual QArm. Unfortunately, this is only possible on a windows machine. While it will be a useful tool and is strongly recommended, it is not necessary for any exercises outside the labs. Inside the labs, one windows laptop per QArm will be provided.
+
+## 5. Install Quanser SDK and Quanser Interactive Labs
 
 Note that the installation of the Quanser SDK and Quanser Interactive Labs are only for computers without QUARC and without use of MATLAB, respectively. If you require MATLAB support and/or control of the QArm hardware, please see Quanser's [PC setup guide](https://github.com/quanser/Quanser_Academic_Resources/blob/dev-windows/docs/pc_setup.md). For users using only the virtual arm with only python:
 
@@ -63,12 +81,6 @@ Note that the installation of the Quanser SDK and Quanser Interactive Labs are o
 3. Create a Quanser account using your UBC email through their [portal](https://portal.quanser.com/Accounts/Register).
 
 4. Open Quanser Interactive Labs and log in. The next step will be to select QArm. However, you won't be able to complete this step until you are added to the course by an instructor or TA.
-
-## 5. Install Visual Studio Code
-
-You can use any local IDE you like, but we recommend VS Code. Cloud-based code editors will not work.
-
-1. Download [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user) and install.
 
 ## 6. Clone the `lab-machine-env` repository
 
