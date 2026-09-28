@@ -7,7 +7,7 @@
 > This guide assumes you are familiar with Python code, but does not assume that you are familiar with installing Python, the VS Code IDE, or using Git.
 
 # For all students
-These are core software components that you will need for this class. Lab 0 will give you a chance to install, then test these to ensure you are prepared for the upcoming labs.
+These are core software components that you will need for this class.
 
 ## 1. Install Git
 
