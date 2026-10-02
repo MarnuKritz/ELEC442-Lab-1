@@ -1,6 +1,6 @@
 import numpy as np
 
-def forward_kin(phi):
+def forward_kin(phi: np.ndarray):
     '''
     Implement a forward kinematics function for the QArm
 
@@ -26,5 +26,8 @@ def forward_kin(phi):
 if __name__ == '__main__':
     phi = np.array([0, 0, 0, 0])
     location, rotation = forward_kin(phi)
-    print(location)
-    print(rotation)
+    print('Input 1 -> location:', location, 'rotation:', rotation)
+    
+    phi = np.array([30, 55, -60, 0])
+    location, rotation = forward_kin(phi)
+    print('Input 2 -> location:', location, 'rotation:', rotation)
