@@ -12,11 +12,16 @@ def forward_kin(phi):
         rotation: rotation matrix from the end effector {4} coordinate system to the base {0} coordinate system
     '''
 
+    # == your code here ==
+
     # Replace these two definitions
     location = None
     rotation = None
 
+    # == end of your code ==
+    
     return location, rotation
+
 
 if __name__ == '__main__':
     phi = np.array([0, 0, 0, 0])
