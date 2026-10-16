@@ -1,6 +1,6 @@
 # Lab 1
 
-This repository contains the code and documents needed to complete Lab 1. Requires `lab-machine-env` and the setup described in [Lab 0](https://github.com/UBC-ELEC-442-Labs-2026/Lab-0).
+This repository contains the code and documents needed to complete Lab 1. Requires the setup described in [Lab 0](https://github.com/UBC-ELEC-442-Labs-2026/Lab-0). For this lab, `lab-machine-env` is recommended but not required for the pre- and post-lab.
 
 ## Getting Started
 
