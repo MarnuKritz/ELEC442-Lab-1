@@ -1,6 +1,11 @@
+
+
+
+
 # Lab 1
 
 This repository contains the code and documents needed to complete Lab 1. Requires the setup described in [Lab 0](https://github.com/UBC-ELEC-442-Labs-2026/Lab-0). For this lab, `lab-machine-env` is recommended but not required for the pre- and post-lab.
+- For the post-lab, an optional-to-view recording of `integration_err.py` running is provided [here](https://github.com/user-attachments/assets/53ea8c29-aada-4b2e-979d-ae6df1e7a371) for your convenience.
 
 ## Getting Started
 
