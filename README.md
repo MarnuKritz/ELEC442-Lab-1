@@ -1,7 +1,3 @@
-
-
-
-
 # Lab 1
 
 This repository contains the code and documents needed to complete Lab 1. Requires the setup described in [Lab 0](https://github.com/UBC-ELEC-442-Labs-2026/Lab-0). For this lab, `lab-machine-env` is recommended but not required for the pre- and post-lab.
@@ -9,12 +5,11 @@ This repository contains the code and documents needed to complete Lab 1. Requir
 
 ## Getting Started
 
-Complete the exercises in **[Lab_1.pdf](Lab_1.pdf)**.
+Complete the exercises in **[Lab_1.pdf](Lab_1.pdf)**. Be sure to complete and submit the pre-lab before your lab session!
 
 Refer to [Personal Computer Setup](https://github.com/UBC-ELEC-442-Labs-2026/Lab-0/blob/main/setup_instructions/personal-computer-setup.md) from [Lab 0](https://github.com/UBC-ELEC-442-Labs-2026/Lab-0) for instructions on creating a repository.
 
 Refer to [Lab Computer Quick Start](https://github.com/UBC-ELEC-442-Labs-2026/Lab-0/blob/main/setup_instructions/lab-computer-quick-start.md) from [Lab 0](https://github.com/UBC-ELEC-442-Labs-2026/Lab-0) for instructions on cloning your repository onto a lab computer and saving your work.
-
 
 ## Grading and Submission
 
