@@ -63,6 +63,7 @@ with QArm(hardware=int(mode), readMode=0) as myArm:
 
     start_time = time.time()
     prev_time = start_time
+    phi = start_phi
 
     while True:
         now = time.time()
@@ -71,7 +72,6 @@ with QArm(hardware=int(mode), readMode=0) as myArm:
         prev_time = now
 
         # Record joint angles from arm at current point & save end-effector position at p4
-        phi = QArm_Interface.read_from_arm()
         p4, _ = QArm_Interface.forward_kinematics(phi)
         
         # Save velocity commands
@@ -79,10 +79,10 @@ with QArm(hardware=int(mode), readMode=0) as myArm:
         v_cmd = np.append(v_cmd,0)
 
         # Find the joint velocities
-        J_inv = QArm_Interface.read_from_arm(phi)
+        J_inv = QArm_Interface.Inv_Jacobian(phi)
         phi_dot = J_inv @ v_cmd
 
-        phi_new = phi + phi_dot * dt
-        QArm_Interface.write_to_arm(phi_new)
+        phi = phi + phi_dot * dt
+        QArm_Interface.write_to_arm(phi)
 
     time.sleep(4)
